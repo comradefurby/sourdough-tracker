@@ -105,6 +105,15 @@ p {
     padding: 0;
 }
 
+/* Mobile: Clear button below entries, half width */
+@media (max-width: 600px) {
+    #clear-btn {
+        display: block;
+        width: 50%;
+        margin: 20px auto 0;
+    }
+}
+
 footer {
     margin-top: 30px;
     text-align: center;
