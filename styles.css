@@ -84,6 +84,8 @@ p {
 
 #clear-btn {
     background-color: #A52A2A;
+    color: white;
+    border-radius: 4px;
 }
 
 #clear-btn:hover {
