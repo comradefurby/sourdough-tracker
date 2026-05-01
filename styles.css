@@ -1,0 +1,134 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF0E6;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+h1 {
+    color: #A0522D;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#app {
+    margin-top: 20px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-section input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-section button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;    font-family: 'Times New Roman', serif;}
+
+.input-section button:hover {
+    background-color: #45a049;
+}
+
+#add-btn {
+    background-color: #698B22;
+}
+
+#add-btn:hover {
+    background-color: #556B2F;
+}
+
+#subtract-btn {
+    background-color: #A2B5CD;
+}
+
+#subtract-btn:hover {
+    background-color: #8B9DC3;
+}
+
+#clear-btn {
+    background-color: #A52A2A;
+    margin-left: 10px;
+}
+
+#clear-btn:hover {
+    background-color: #8B2323;
+}
+
+#total-display {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#entries {
+    text-align: left;
+}
+
+#entries-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#entries-list li {
+    background-color: #CDC0B0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Mobile optimization */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .input-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .input-section input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .input-section button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    #total-display {
+        font-size: 16px;
+    }
+}
