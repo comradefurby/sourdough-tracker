@@ -31,18 +31,24 @@ p {
 
 .input-section {
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
 }
 
 .input-section label {
     display: block;
     margin-bottom: 5px;
+    width: 100%;
 }
 
 .input-section input {
     padding: 8px;
-    margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    flex: 1;
+    min-width: 80px;
 }
 
 .input-section button {
@@ -52,7 +58,9 @@ p {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 10px;    font-family: 'Times New Roman', serif;}
+    margin: 5px 5px 5px 0;
+    font-family: 'Times New Roman', serif;
+}
 
 .input-section button:hover {
     background-color: #45a049;
@@ -76,7 +84,6 @@ p {
 
 #clear-btn {
     background-color: #A52A2A;
-    margin-left: 10px;
 }
 
 #clear-btn:hover {
@@ -96,6 +103,13 @@ p {
 #entries-list {
     list-style-type: none;
     padding: 0;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
 }
 
 #entries-list li {
